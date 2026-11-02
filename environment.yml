@@ -1,0 +1,41 @@
+name: mfe
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.11
+  # Core 
+  - numpy
+  - scipy
+  - pandas
+  - polars
+  - sympy
+  # Plotting
+  - matplotlib
+  - seaborn
+  - plotly
+  # Modeling
+  - statsmodels
+  - arch-py
+  - linearmodels
+  # ML
+  - scikit-learn
+  - xgboost
+  - lightgbm
+  - pytorch
+  # QF
+  - quantlib-python
+  - cvxpy
+  # Performance
+  - numba
+  - cython
+  # Misc
+  - jupyterlab
+  - ipykernel
+  - pytest
+  - pip
+  - pip:
+      - yfinance
+      - openbb
+      - pandas-datareader
